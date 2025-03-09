@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Count Online</title>
+    <link rel="icon" type="image/x-icon" href="images/wc-logo.ico">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="header">
+    <h1 class="header-text"><b>Word Count Online</b></h1>
+    <p class="header-text">Count Words, Characters, and More!</p>
+</div>
+<br><br><br><br><br><br>
+
+
+<div class="text-summary">
+    <h1 class="summary-header">Text Overview</h1>
+    <!--    <br>-->
+    <div class="summary-content">
+        <p class="summary-content-elem" id="word-count">Words: 0</p>
+        <p class="summary-content-elem" id="char-count">Characters: 0</p>
+        <p class="summary-content-elem" id="sentence-count">Sentences: 0</p>
+    </div>
+</div>
+
+<br><br>
+
+<div class="main-text">
+    <label class="text-input"><textarea id="text-input" class="textbox" name="text-area" cols="80" rows="100"
+                                        autofocus="autofocus"></textarea></label>
+    <label for="display-mode"></label>
+    <div class="main-text-analysis">
+        <select name="display-mode" id="display-mode" class="main-text-modeselect">
+            <option value="reading-time">Reading</option>
+            <option value="word-density">Word Density</option>
+        </select>
+        <p class="main-display-details" id="main-display">Reading Time: 0:00<br><br>Speaking Time: 0:00</p>
+    </div>
+</div>
+</body>
+</html>
+<script src="main.js"></script>

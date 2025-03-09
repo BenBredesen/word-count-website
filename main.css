@@ -1,0 +1,101 @@
+:root{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+}
+.header{
+    background-color: #0080ff;
+    top: 0;
+    position: fixed;
+    width:70%;
+    padding-top: 2rem;
+    padding-bottom: 0.75rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -1.35rem;
+    margin-left: -0.5rem;
+    z-index: 1000;
+}
+.header-text{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text-summary{
+    padding: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    background-color: #b0b0b0;
+    width: 80%;
+    margin: auto;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+.summary-header{
+    margin: 0;
+}
+.summary-content{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.summary-content-elem{
+    display: flex;
+    margin: auto;
+}
+
+.textbox{
+/*    width: 150%;*/
+    height: 30rem;
+    margin-left: 1rem;
+    resize: none;
+    border-radius: 0.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.25rem;
+    transition: scale 0.2s ease-in-out;
+    border: 1rem solid #ffffff;
+    scale: 1;
+}
+.textbox:hover{
+    scale: 1.01;
+}
+.main-text{
+    padding: 1rem;
+    padding-top: 3rem;
+    background-color: #b0b0b0;
+    margin: auto;
+    width: 80%;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+}
+.main-text-modeselect{
+    height: 60px;
+    width: 250px;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    border-color: transparent;
+    background-image: url('images/cursor.png'); /* Custom arrow */
+    /*    background source: https://pngimg.com/image/33209*/
+    background-repeat: no-repeat;
+    background-position: 100% 100%; /* Position the arrow */
+    background-size: 16px; /* Size of the arrow */
+    transition: scale 0.2s ease-in-out;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    appearance: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+}
+.main-text-modeselect:hover {
+    scale: 1.05;
+    outline: none;
+}
+.main-display-details{
+    text-align: center;
+    margin: auto;
+    font-size: 1.25rem;
+}
